@@ -45,6 +45,16 @@
     @apply bg-surface-secondary text-text-primary font-sans;
   }
 
+  button,
+  [role="button"],
+  [type="button"],
+  [type="submit"],
+  [type="reset"],
+  summary,
+  a[href] {
+    cursor: pointer;
+  }
+
   /* Custom scrollbar */
   ::-webkit-scrollbar {
     width: 4px;
