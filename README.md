@@ -144,6 +144,7 @@ Build settings are pre-configured:
 ## Screenshots
 
 ### Mobile
+![](https://media.licdn.com/dms/image/v2/D4D22AQEQWHjQAAdv2g/feedshare-image-high-res/B4DZ0S3cO5GUAU-/0/1774138016924?e=1787184000&v=beta&t=To0yU4g9SNobuPzFJ1Mb8jZGfXhhPWnf3hBRTEVYSFA)
 - Home page with search form and popular routes
 - Search results with filter modal
 - Ticket details with trip timeline
@@ -151,6 +152,8 @@ Build settings are pre-configured:
 - Booking confirmation
 
 ### Desktop
+![](https://media.licdn.com/dms/image/v2/D4D22AQHXpe36jqVmfg/feedshare-image-high-res/B4DZ0S3cNIH4AY-/0/1774138016892?e=1787184000&v=beta&t=Gkv7wn2ugEWaiu6goHybt55dzIo13dGUVxtBhSJDKiE)
+
 - Sidebar navigation with multi-column layouts
 - Filter sidebar alongside search results
 - Trip summary sidebar during booking
