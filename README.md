@@ -2,6 +2,8 @@
 
 A modern, production-ready travel booking frontend built with **Next.js 16**, **React 19**, and **Tailwind CSS v4**. Search and book bus, train, and flight tickets — all in one beautifully designed interface.
 
+[![launch with diploi badge](https://diploi.com/launch.svg)](https://diploi.com/launch/MiladJoodi/Tripix)
+
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
@@ -90,9 +92,45 @@ src/
 
 ## Deployment
 
-This project is configured for **Netlify** deployment with static export.
+### Option 1: Deploy to Diploi 
 
-### Deploy to Netlify
+[![launch with diploi button](https://diploi.com/launch-big.svg)](https://diploi.com/launch/MiladJoodi/Tripix)
+
+1. Launch the project
+
+   Click the launch button above to create a new Diploi deployment.
+
+2. Add the development preview URL to `next.config.ts`
+
+   After the project is imported, open it in the **Code** tab. In `next.config.ts`, add your Diploi development preview URL to `allowedDevOrigins`. For example, if your preview URL is `my--dev-test.diploi.me`, use:
+
+   ```bash
+   import type { NextConfig } from "next";
+
+   const nextConfig: NextConfig = {
+     reactStrictMode: true,
+     output: "export",
+     trailingSlash: true,
+     images: { unoptimized: true },
+     allowedDevOrigins: ['my--dev-test.diploi.me']
+   };
+
+   export default nextConfig;
+   ```
+
+3. Restart the deployment
+
+   Open the deployment dashboard, click **Restart**, then open the preview URL from your Diploi deployment page.
+
+4. Add environment variables if needed
+
+   If the project needs additional environment variables, open the **Environment** tab in the sidebar and add them manually.
+
+For more information, please visit [diploi.com](https://diploi.com/).
+
+
+### Option 2: Deploy to Netlify
+This project is configured for **Netlify** deployment with static export.
 
 1. Push the repo to GitHub
 2. Connect the repo in [Netlify](https://app.netlify.com/)
