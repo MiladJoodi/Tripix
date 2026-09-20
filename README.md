@@ -2,8 +2,6 @@
 
 A modern, production-ready travel booking frontend built with **Next.js 16**, **React 19**, and **Tailwind CSS v4**. Search and book bus, train, and flight tickets — all in one beautifully designed interface.
 
-[![launch with diploi badge](https://diploi.com/launch.svg)](https://diploi.com/launch/MiladJoodi/Tripix)
-
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
